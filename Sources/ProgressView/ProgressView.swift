@@ -1,6 +1,6 @@
 import UIKit
 
-class ProgressView: UIView {
+public class ProgressView: UIView {
     
     init(frame: CGRect, colors: [UIColor], lineWidth: CGFloat) {
         self.colors = colors
