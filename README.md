@@ -1,3 +1,4 @@
 # ProgressView
 
-A description of this package.
+UIKit component to add a loading animation
+
