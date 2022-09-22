@@ -79,7 +79,7 @@ public class ProgressView: UIView {
         return ProgressShapeLayer(strokeColor: colors.first!, lineWidth: lineWidth)
     }()
     
-    var isAnimating: Bool = false {
+    public var isAnimating: Bool = false {
         didSet {
             if isAnimating {
                 self.animateStroke()
