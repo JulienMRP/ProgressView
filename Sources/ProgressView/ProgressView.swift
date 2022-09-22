@@ -9,7 +9,7 @@ public class ProgressView: UIView {
         self.backgroundColor = .clear
     }
     
-    convenience init(colors: [UIColor], lineWidth: CGFloat) {
+    public convenience init(colors: [UIColor], lineWidth: CGFloat) {
         self.init(frame: .zero, colors: colors, lineWidth: lineWidth)
     }
     
