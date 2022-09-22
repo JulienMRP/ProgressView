@@ -17,7 +17,7 @@ public class ProgressView: UIView {
         fatalError("init(coder:) is not supported")
     }
     
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         super.layoutSubviews()
         self.layer.cornerRadius = self.frame.width / 2
         let path = UIBezierPath(ovalIn:

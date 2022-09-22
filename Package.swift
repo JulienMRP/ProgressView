@@ -24,5 +24,7 @@ let package = Package(
         .testTarget(
             name: "ProgressViewTests",
             dependencies: ["ProgressView"]),
+        
     ]
+        
 )
